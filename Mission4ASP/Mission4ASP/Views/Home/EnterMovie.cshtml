@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Enter a Movie";
+}
+
+@model Mission4ASP.Models.Movies.MoviesResponse
+
+<h1>Fill Out Movie Entry</h1>
+<br />
+
+<div>
+    <form method="post">
+        <label>Category:</label>
+        <input asp-for="Category" /><br />
+
+        <label>Title:</label>
+        <input asp-for="Title" /><br />
+
+        <label>Year:</label>
+        <input asp-for="Year" /><br />
+
+        <label>Director:</label>
+        <input asp-for="Director" /><br />
+
+        <label>Rating:</label>
+        <select asp-for="Rating">
+            <option value="G">G</option>
+            <option value="PG">PG</option>
+            <option value="PG13">PG-13</option>
+            <option value="R">R</option>
+        </select><br />
+
+        <label>Edited:</label>
+        <select asp-for="Edited">
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </select><br />
+
+        <label>Lent To:</label>
+        <input asp-for="LentTo" /><br />
+
+        <label>Notes:</label>
+        <input asp-for="Notes" /><br />
+        <br />
+
+        <button type="submit">Submit Entry</button>
+    </form>
+</div>
