@@ -1,15 +1,42 @@
 ﻿<Properties StartupConfiguration="{327CCB45-652C-47D2-8249-21DC4CC19AB3}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Mission4ASP/Models/MovieEnterContext.cs">
     <Files>
-      <File FileName="Mission4ASP/Controllers/HomeController.cs" Line="37" Column="19" />
-      <File FileName="Mission4ASP/Models/Movies.cs" />
-      <File FileName="Mission4ASP/Models/MovieEnterContext.cs" Line="25" Column="49" />
-      <File FileName="Mission4ASP/Views/Home/EnterMovie.cshtml" />
-      <File FileName="Mission4ASP/Views/_ViewImports.cshtml" />
-      <File FileName="Mission4ASP/Startup.cs" />
-      <File FileName="Mission4ASP/Views/Home/Index.cshtml" />
-      <File FileName="Mission4ASP/Views/Home/Podcasts.cshtml" />
+      <File FileName="Mission4ASP/Controllers/HomeController.cs" Line="41" Column="39" />
+      <File FileName="Mission4ASP/Models/Movies.cs" Line="1" Column="1" />
+      <File FileName="Mission4ASP/Models/MovieEnterContext.cs" Line="19" Column="1" />
+      <File FileName="Mission4ASP/Views/Home/EnterMovie.cshtml" Line="1" Column="1" />
+      <File FileName="Mission4ASP/Views/Home/Index.cshtml" Line="13" Column="1" />
+      <File FileName="Mission4ASP/Migrations/20220126154540_initial.cs" Line="1" Column="1" />
+      <File FileName="Mission4ASP/Views/Home/Confirmation.cshtml" Line="8" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission4ASP" expanded="True">
+            <Node name="Mission4ASP" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" selected="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True">
+                  <Node name="jquery" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="jquery.js" expanded="True">
+                        <Node name="jquery.min.js" expanded="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Mission4ASP PreferredExecutionTarget="/Applications/Safari.app" />

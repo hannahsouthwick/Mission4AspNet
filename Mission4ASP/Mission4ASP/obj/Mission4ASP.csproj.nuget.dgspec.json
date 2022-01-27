@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hannahsouthwick/Projects/Mission4ASP/Mission4ASP/Mission4ASP.csproj": {}
+    "/Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/Mission4ASP.csproj": {}
   },
   "projects": {
-    "/Users/hannahsouthwick/Projects/Mission4ASP/Mission4ASP/Mission4ASP.csproj": {
+    "/Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/Mission4ASP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hannahsouthwick/Projects/Mission4ASP/Mission4ASP/Mission4ASP.csproj",
+        "projectUniqueName": "/Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/Mission4ASP.csproj",
         "projectName": "Mission4ASP",
-        "projectPath": "/Users/hannahsouthwick/Projects/Mission4ASP/Mission4ASP/Mission4ASP.csproj",
+        "projectPath": "/Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/Mission4ASP.csproj",
         "packagesPath": "/Users/hannahsouthwick/.nuget/packages/",
-        "outputPath": "/Users/hannahsouthwick/Projects/Mission4ASP/Mission4ASP/obj/",
+        "outputPath": "/Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/hannahsouthwick/.config/NuGet/NuGet.Config"
+          "/Users/hannahsouthwick/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

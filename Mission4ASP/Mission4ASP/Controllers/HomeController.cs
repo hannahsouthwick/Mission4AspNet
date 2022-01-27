@@ -35,7 +35,7 @@ namespace Mission4ASP.Controllers
         }
 
         [HttpPost]
-        public IActionResult EnterMovie(Movies ar)
+        public IActionResult EnterMovie(MoviesResponse ar)
         {
             blahContext.Add(ar);
             blahContext.SaveChanges();

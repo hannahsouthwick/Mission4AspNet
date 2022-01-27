@@ -11,7 +11,7 @@ namespace Mission4ASP.Models
             // leave blank for now
         }
 
-        public DbSet<MoviesResponse> responses { get; set; }
+        public DbSet<MoviesResponse> Entries { get; set; }
 
         protected override void OnModelCreating(ModelBuilder mb)
         {
@@ -29,7 +29,6 @@ namespace Mission4ASP.Models
                     LentTo = "",
                     Notes = ""
                 },
-
                 new MoviesResponse
                 {
                     MovieID = 2,
