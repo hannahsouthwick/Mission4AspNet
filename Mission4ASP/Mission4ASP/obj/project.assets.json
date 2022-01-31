@@ -1206,7 +1206,7 @@
       "outputPath": "/Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/hannahsouthwick/.nuget/NuGet/NuGet.Config"
+        "/Users/hannahsouthwick/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
