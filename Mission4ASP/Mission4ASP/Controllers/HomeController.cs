@@ -72,7 +72,7 @@ namespace Mission4ASP.Controllers
         [HttpGet]
         public IActionResult Edit(int movieid)
         {
-            ViewBag.Majors = daContext.Categories.ToList();
+            ViewBag.Categories = daContext.Categories.ToList();
 
             var entry = daContext.Entries.Single(x => x.MovieID == movieid);
 
