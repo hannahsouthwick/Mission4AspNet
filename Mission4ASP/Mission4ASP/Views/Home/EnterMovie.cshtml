@@ -2,18 +2,28 @@
     ViewData["Title"] = "Enter a Movie";
 }
 
-@model Mission4ASP.Models.Movies.MoviesResponse
+@model Mission4ASP.Models.MoviesResponse
 
 <h1>Fill Out Movie Entry</h1>
 <br />
 
 <div>
     <form method="post">
-        <label>Category:</label>
-        <input asp-for="Category" /><br />
+        <div asp-validation-summary="All"></div>
 
         <label>Title:</label>
         <input asp-for="Title" /><br />
+
+        <label>Category:</label>
+        <select asp-for="CategoryID">
+            <option value="">Select a Category:</option>
+            @foreach (Category c in ViewBag.Categories)
+            {
+                <option value="@c.CategoryID">@c.CategoryName</option>
+            }
+
+        </select><br />
+
 
         <label>Year:</label>
         <input asp-for="Year" /><br />

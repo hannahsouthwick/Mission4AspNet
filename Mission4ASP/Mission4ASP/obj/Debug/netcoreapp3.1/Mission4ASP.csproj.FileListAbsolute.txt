@@ -146,9 +146,7 @@
 /Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Razor/Views/Home/EnterMovie.cshtml.g.cs
 /Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
 /Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Razor/Views/Home/Podcasts.cshtml.g.cs
-/Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
-/Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
 /Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
 /Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
 /Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Mission4ASP.RazorTargetAssemblyInfo.cache
@@ -158,3 +156,5 @@
 /Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Mission4ASP.dll
 /Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Mission4ASP.pdb
 /Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Mission4ASP.genruntimeconfig.cache
+/Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Razor/Views/Home/AllEntries.cshtml.g.cs
+/Users/hannahsouthwick/Documents/GitHub/Mission4AspNet/Mission4ASP/Mission4ASP/obj/Debug/netcoreapp3.1/Razor/Views/Home/Delete.cshtml.g.cs

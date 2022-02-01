@@ -1,14 +1,24 @@
 ﻿<Properties StartupConfiguration="{327CCB45-652C-47D2-8249-21DC4CC19AB3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission4ASP/Models/MovieEnterContext.cs">
-    <Files>
-      <File FileName="Mission4ASP/Controllers/HomeController.cs" Line="41" Column="39" />
-      <File FileName="Mission4ASP/Models/Movies.cs" />
-      <File FileName="Mission4ASP/Models/MovieEnterContext.cs" Line="22" Column="33" />
-      <File FileName="Mission4ASP/Views/Home/EnterMovie.cshtml" />
-      <File FileName="Mission4ASP/Views/Home/Index.cshtml" />
-      <File FileName="Mission4ASP/Migrations/20220126154540_initial.cs" />
-      <File FileName="Mission4ASP/Views/Home/Confirmation.cshtml" />
-    </Files>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission4ASP/Models/Category.cs">
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission4ASP" expanded="True">
+            <Node name="Mission4ASP" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Category.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Mission4ASP PreferredExecutionTarget="/Applications/Safari.app" />

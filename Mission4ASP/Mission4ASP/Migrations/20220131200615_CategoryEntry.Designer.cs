@@ -8,8 +8,8 @@ using Mission4ASP.Models;
 namespace Mission4ASP.Migrations
 {
     [DbContext(typeof(MovieEnterContext))]
-    [Migration("20220126154540_initial")]
-    partial class initial
+    [Migration("20220131200615_CategoryEntry")]
+    partial class CategoryEntry
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -17,15 +17,70 @@ namespace Mission4ASP.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.22");
 
-            modelBuilder.Entity("Mission4ASP.Models.Movies+MoviesResponse", b =>
+            modelBuilder.Entity("Mission4ASP.Models.Category", b =>
+                {
+                    b.Property<int>("CategoryID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CategoryName")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("CategoryID");
+
+                    b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryID = 1,
+                            CategoryName = "Action/Adventure"
+                        },
+                        new
+                        {
+                            CategoryID = 2,
+                            CategoryName = "Comedy"
+                        },
+                        new
+                        {
+                            CategoryID = 3,
+                            CategoryName = "Drama"
+                        },
+                        new
+                        {
+                            CategoryID = 4,
+                            CategoryName = "Family"
+                        },
+                        new
+                        {
+                            CategoryID = 5,
+                            CategoryName = "Horror/Suspense"
+                        },
+                        new
+                        {
+                            CategoryID = 6,
+                            CategoryName = "Miscellaneous"
+                        },
+                        new
+                        {
+                            CategoryID = 7,
+                            CategoryName = "Television"
+                        },
+                        new
+                        {
+                            CategoryID = 8,
+                            CategoryName = "VHS"
+                        });
+                });
+
+            modelBuilder.Entity("Mission4ASP.Models.MoviesResponse", b =>
                 {
                     b.Property<int>("MovieID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                    b.Property<int>("CategoryID")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Director")
                         .IsRequired()
@@ -53,25 +108,27 @@ namespace Mission4ASP.Migrations
 
                     b.HasKey("MovieID");
 
+                    b.HasIndex("CategoryID");
+
                     b.ToTable("Entries");
 
                     b.HasData(
                         new
                         {
                             MovieID = 1,
-                            Category = "Action/Adventure",
+                            CategoryID = 1,
                             Director = "Gore Verbinski",
                             Edited = false,
                             LentTo = "",
                             Notes = "",
                             Rating = "PG-13",
-                            Title = "Pirates of the Caribbean",
+                            Title = "Pirates of the Caribbean: Curse of the Black Pearl",
                             Year = 2003
                         },
                         new
                         {
                             MovieID = 2,
-                            Category = "Action/Adventure",
+                            CategoryID = 1,
                             Director = "George Lucas",
                             Edited = false,
                             LentTo = "",
@@ -83,7 +140,7 @@ namespace Mission4ASP.Migrations
                         new
                         {
                             MovieID = 3,
-                            Category = "Drama",
+                            CategoryID = 3,
                             Director = "Greta Gerwig",
                             Edited = false,
                             LentTo = "",
@@ -92,6 +149,15 @@ namespace Mission4ASP.Migrations
                             Title = "Little Women",
                             Year = 2019
                         });
+                });
+
+            modelBuilder.Entity("Mission4ASP.Models.MoviesResponse", b =>
+                {
+                    b.HasOne("Mission4ASP.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
